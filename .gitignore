@@ -1,0 +1,9 @@
+# Ambiente e segredos
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Banco de dados e logs (gerados em tempo de execução)
+database/*.db
+bot.log
