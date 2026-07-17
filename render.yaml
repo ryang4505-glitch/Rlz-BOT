@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: rzbot
+    runtime: python
+    pythonVersion: "3.12"
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
